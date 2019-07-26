@@ -5,7 +5,7 @@ Routing Information Protocol (RIP) ---->
   do show ip route
   network (.......net address.......)
 
-Enhanced Interior Gateway Routing Protocol (EIGRP)  ---->
+Enhanced Interior Gateway Routing Protocol (EIGRP) ---->
   router eigrp <1-65535>  Autonomous system number
   do show ip route
   network (.......net address.......) + Wildcard Mask (wcm) subnetmask - that subnetmask
