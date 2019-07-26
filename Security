@@ -1,0 +1,36 @@
+From Privilage mode ----->
+  > enable
+  > configure terminal
+  > enable ?
+  > enable secred (password u want to enter)   more secure 
+  > enable password (password u want to enter) and exit
+  > show run (to see details) 
+  
+From User mode ----->
+  > enable
+  > configure terminal
+  > password (password u want to enter)
+  > login
+  > end
+  
+From User mode add banner----->
+  > enable
+  > configure terminal
+  > banner motd $Please login$
+  
+Remotely access  ----->
+  > enable
+  > configure terminal
+  > line vty 0 15
+  > password (password u want to enter)
+  > login
+  then from commandprompt 
+  > telnet + that ip address
+  
+Encrypt password ----->
+  > enable
+  > configure terminal
+  > do show run
+  > service password-encryption
+  > do show run
+  
