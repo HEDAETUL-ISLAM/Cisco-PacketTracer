@@ -8,11 +8,11 @@ Routing Information Protocol (RIP) ---->
 Enhanced Interior Gateway Routing Protocol (EIGRP)  ---->
   router eigrp <1-65535>  Autonomous system number
   do show ip route
-  network (.......net address.......) + Wildcard Mask (wcm)
+  network (.......net address.......) + Wildcard Mask (wcm) subnetmask - that subnetmask
 
 Open Shortest Path First (OSPF)  ---->
   router ospf <1-65535>  Autonomous system number
   do show ip route
-  network (.......net address.......) + Wildcard Mask (wcm) + area  Set the OSPF area ID (0-----2^30)
+  network (.......net address.......) + Wildcard Mask (wcm) + area  Set the OSPF area ID ( area 0-----2^30)
   
 
