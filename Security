@@ -9,6 +9,7 @@ From Privilage mode ----->
 From User mode ----->
   > enable
   > configure terminal
+  > line console 0
   > password (password u want to enter)
   > login
   > end
